@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from '../Footer';
-import Header from '../Header';
-import ItemsList from '../ItemsList';
+
+import ItemList from '../ItemList';
+
 import style from './MainPage.module.scss';
 
 const MainPage = () => {
@@ -18,9 +18,7 @@ const MainPage = () => {
 
   return (
     <div className={style.page_wrapper}>
-      <Header />
-      <ItemsList />
-      <Footer />
+      <ItemList />
     </div>
   );
 };
