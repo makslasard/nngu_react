@@ -1,7 +1,7 @@
-.footer {
-    font-family: Arial, sans-serif;
-
-    background-color: rgb(255, 240, 71);
-
-    padding: 20px;
+.page_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  background-color: rgb(175, 175, 175);
 }
