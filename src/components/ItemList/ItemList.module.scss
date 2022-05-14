@@ -1,0 +1,25 @@
+.item_list {
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+
+    list-style-type: none;
+    background-color: rgba(254, 242, 74, 0.885);
+
+    flex: 1 0 auto;
+}
+
+.item_list_elem {
+    color: #000;
+
+    font-size: 20px;
+}
+
+.item_list_elem a {
+    text-decoration: none;
+    color: #000;
+
+}
