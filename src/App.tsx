@@ -1,12 +1,17 @@
 import React from 'react';
-
-import MainPage from './components/MainPage/MainPage';
-
-import './components/MainPage/MainPage.module.scss';
 import './assets/scss/normalize.scss';
+import TestPage from './entities/TestPage';
+
+import UsersPage from './entities/UsersPage';
+import PageLayout from './layouts/PageLayout';
 
 const App = () => {
-  return <MainPage />;
+  return (
+    <PageLayout>
+      {/* <UsersPage /> */}
+      <TestPage />
+    </PageLayout>
+  );
 };
 
 export default App;
