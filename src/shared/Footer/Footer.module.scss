@@ -1,7 +1,41 @@
-.page_footer {
+.wrapper {
+  background-color: #f2f2f2;
+  font-family: 'Jost', sans-serif;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 1170px;
   display: flex;
-  justify-content: center;
+  flex: 1 0 auto;
+  justify-content: space-between;
   align-items: center;
-  min-height: 60px;
-  background-color: rgb(175, 175, 175);
+  margin-top: 10px;
+  height: 120px;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  position: relative;
+  img {
+    padding-right: 46px;
+  }
+  p {
+      color: #424242;
+  }
+
+  ::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 32px;
+    background-color: #d9d9d9;
+    top: -5px;
+    right: 154px;
+  }
+}
+
+.headerRight {
+    color: #424242;
 }

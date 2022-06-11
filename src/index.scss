@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Jost', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+header {
+  
+}
+
+main {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  min-height: calc(100vh - 202px);
+
+}
+
+footer {
+}

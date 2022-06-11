@@ -1,17 +1,26 @@
 import React from 'react';
-import './assets/scss/normalize.scss';
-import TestPage from './entities/TestPage';
+import Header from './shared/Header';
 
-import UsersPage from './entities/UsersPage';
-import PageLayout from './layouts/PageLayout';
+import './assets/scss/normalize.scss';
+import style from './index.scss';
+import Footer from './shared/Footer';
+import Content from './shared/Content';
+import Sidebar from './shared/Sidebar';
 
 const App = () => {
   return (
-    <PageLayout>
-      {/* <UsersPage /> */}
-      <TestPage />
-    </PageLayout>
+    <>
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Sidebar />
+        <Content />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 };
-
 export default App;
