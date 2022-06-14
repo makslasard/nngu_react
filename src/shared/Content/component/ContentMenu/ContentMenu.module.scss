@@ -1,0 +1,23 @@
+.contentMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 867px;
+  height: 40px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding-right: 90px;
+  border-left: 20px;
+
+  p {
+    font-weight: 700;
+    color: #808182;
+  }
+}
+
+.contentMenuSort {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 20px;
+}

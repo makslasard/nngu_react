@@ -14,7 +14,7 @@ const Sidebar = () => {
         </div>
         <hr />
         <div className={style.block_2}>
-          <a href="/">
+          <a href="/" className={style.active}>
             <svg
               width="20"
               height="20"

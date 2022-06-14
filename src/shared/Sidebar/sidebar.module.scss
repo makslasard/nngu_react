@@ -13,6 +13,24 @@
     color: #2a2f37;
     opacity: 0.1;
   }
+
+  .active {
+    color: #4877f2;
+
+    path {
+      stroke: #4877f2;
+    }
+    ::after {
+      display: block;
+      content: '';
+      height: 40px;
+      width: 2px;
+      background-color: #4877f2;
+      position: absolute;
+      top: 12px;
+      left: 0px;
+    }
+  }
 }
 
 .block_1 {
@@ -20,7 +38,9 @@
   max-height: 72px;
   padding: 24px;
   align-items: center;
-
+  img {
+    cursor: pointer;
+  }
   h3 {
     font-size: 16px;
     padding-left: 16px;
@@ -39,6 +59,7 @@
   align-items: center;
   position: relative;
   padding: 24px;
+  
   svg {
     padding-right: 12px;
   }

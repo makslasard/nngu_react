@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 0 auto;
+  margin-top: 40px;
+  min-width: 867px;
+  margin-bottom: 40px;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    color: #2c2d2e;
+  }
+  p {
+    color: #7f7f80;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4877f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    p {
+      color: #fff;
+      margin-right: 20px;
+    }
+  }
+}
+
+hr {
+  color: #2a2f37;
+  opacity: 0.1;
+}

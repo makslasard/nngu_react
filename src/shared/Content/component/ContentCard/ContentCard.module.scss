@@ -1,0 +1,30 @@
+.contentCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  min-width: 867px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 35px;
+  cursor: pointer;
+
+  // :hover {
+  //   border: 1px solid rgb(72, 119, 242, 0.5);
+  // }
+
+  svg {
+    cursor: pointer;
+  }
+
+  .contentCardSelect {
+    display: none;
+
+    :hover {
+      display: block;
+    }
+  }
+}
+
