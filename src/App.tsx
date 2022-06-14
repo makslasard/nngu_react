@@ -8,7 +8,7 @@ import PageLayout from './layouts/PageLayout';
 const App = () => {
   return (
     <PageLayout>
-      {/* <UsersPage /> */}
+      <UsersPage />
       <TestPage />
     </PageLayout>
   );
