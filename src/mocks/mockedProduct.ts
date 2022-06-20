@@ -1,0 +1,58 @@
+export const mockedProduct = [
+  {
+    id: 1,
+    name: 'Чепик',
+    category: 'Одежда',
+    publication_date: '12 апреля 2022',
+    publication: 'Да',
+  },
+  {
+    id: 2,
+    name: 'Самовар',
+    category: 'Товары для дома',
+    publication_date: '12 апреля 2022',
+    publication: 'Да',
+  },
+  {
+    id: 3,
+    name: 'Стиральная машина LG',
+    category: 'Техника',
+    publication_date: '11 апреля 2022',
+    publication: 'Да',
+  },
+  {
+    id: 4,
+    name: 'Часы Rolex',
+    category: 'Аксессуары',
+    publication_date: '10 апреля 2022',
+    publication: 'Да',
+  },
+  {
+    id: 5,
+    name: 'Lada Kalina',
+    category: 'Автомобили',
+    publication_date: '9 апреля 2022',
+    publication: 'Да',
+  },
+  {
+    id: 6,
+    name: 'Спортивный велосипед',
+    category: 'Спорт',
+    publication_date: '9 апреля 2022',
+    publication: 'Да',
+  },
+  {
+    id: 7,
+    name: 'Ботинки поношенные',
+    category: 'Одежда',
+    publication_date: '9 апреля 2022',
+    publication: 'Да',
+  },
+  {
+    id: 8,
+    name: 'Приставка Dendy',
+    category: 'Техника',
+    publication_date: '12 апреля 2022',
+    publication: 'Да',
+  },
+];

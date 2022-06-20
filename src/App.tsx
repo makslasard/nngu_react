@@ -2,10 +2,11 @@ import React from 'react';
 import Header from './shared/Header';
 
 import './assets/scss/normalize.scss';
-import style from './index.scss';
 import Footer from './shared/Footer';
 import Content from './shared/Content';
 import Sidebar from './shared/Sidebar';
+
+// import style from './index.scss';
 
 const App = () => {
   return (

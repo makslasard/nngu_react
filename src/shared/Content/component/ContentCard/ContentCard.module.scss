@@ -1,3 +1,9 @@
+.wrapper {
+  :hover {
+    border: 1px solid #a3bbf9;
+  }
+}
+
 .contentCard {
   display: flex;
   justify-content: space-between;
@@ -5,26 +11,80 @@
   height: 80px;
   min-width: 867px;
   background-color: #fff;
+  border: 1px solid transparent;
   border-radius: 4px;
   margin-bottom: 10px;
   padding-left: 20px;
-  padding-right: 35px;
   cursor: pointer;
 
-  // :hover {
-  //   border: 1px solid rgb(72, 119, 242, 0.5);
-  // }
+  :hover {
+    border: none;
+  }
+
+  .contentCardItem_1 {
+    min-width: 262px;
+  }
+  .contentCardItem_2 {
+    min-width: 148px;
+  }
+  .contentCardItem_3 {
+    min-width: 207px;
+  }
+  .contentCardItem_4 {
+    min-width: 78px;
+  }
 
   svg {
     cursor: pointer;
   }
 
   .contentCardSelect {
-    display: none;
+    margin-right: 20px;
+    position: relative;
 
-    :hover {
+    .contentCardStyleSvg {
+      :hover {
+        background-color: #f7f7f7;
+      }
+    }
+
+    .contentCardSelectList {
+      border: 1px solid #eeeeee;
+      background-color: #fff;
+      position: absolute;
       display: block;
+      top: 23px;
+      left: -204px;
+
+      li {
+        list-style-type: none;
+      }
+      :hover {
+        background-color: #f7f7f7;
+
+
+        path {
+          stroke: #000;
+        }
+      }
+
+      .contentCardSelectItem {
+        display: flex;
+        align-items: center;
+
+        padding-top: 10px;
+        padding-left: 24px;
+        padding-bottom: 10px;
+        padding-right: 85px;
+
+        svg {
+          margin-right: 10px;
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+      }
     }
   }
 }
-
